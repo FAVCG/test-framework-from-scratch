@@ -1,8 +1,8 @@
 /// <reference types="cypress" />
 import userInfo from "../../fixtures/userData.json";
 import applicationPage from "../../page_objects/application.page";
-import currentOpeningsPage from "../../page_objects/current-openings.page";
-import jobDetailsPage from "../../page_objects/job-details.page";
+import currentOpeningsPage from "../../page_objects/current.openings.page";
+import jobDetailsPage from "../../page_objects/job.details.page";
 import jobTitles from "../../fixtures/jobTitles.json";
 
 describe("Smoke Test: Apply for a role", () => {
@@ -16,7 +16,7 @@ describe("Smoke Test: Apply for a role", () => {
     currentOpeningsPage.teamCategoryLink.click();
 
     currentOpeningsPage.postTitleLink.each(($el) => {
-      const title = currentOpeningsPage.postingName($el).text();
+      const title = $el.find('[data-qa="posting-name"]').text();
 
       if (title.includes(jobTitles.webDevelopment.fullStack)) {
         cy.wrap($el).click();
