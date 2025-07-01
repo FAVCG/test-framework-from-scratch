@@ -1,0 +1,11 @@
+{
+  "user": {
+    "fullName": "Jane Smith",
+    "email": "jane.smith@email.com",
+    "phone": "5559876543",
+    "currentCompany": "Brightline Systems",
+    "linkedIn": "https://www.linkedin.com/in/jane-smith/",
+    "gitHub": "https://github.com/JaneSmith",
+    "additionalInfo": "Experienced Software Engineer skilled in manual and automated testing, eager to contribute to high-quality software delivery."
+  }
+}
