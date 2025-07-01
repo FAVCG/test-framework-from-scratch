@@ -1,0 +1,12 @@
+{
+  "webDevelopment": {
+    "fullStack": "Full-stack Engineer",
+    "frontend": "Frontend Developer"
+  },
+  "qualityAssurance": {
+    "qualityAssuranceEngineer": "Quality Assurance Engineer",
+    "sdet": "Software Development Engineer in Test",
+    "qaAnalyst": "QA Analyst",
+    "qaAutomationEngineer": "QA Automation Engineer"
+  }
+}
