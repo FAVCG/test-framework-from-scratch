@@ -1,3 +1,4 @@
+import 'cypress-file-upload';
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -9,7 +10,6 @@
 // ***********************************************
 //
 //
-import 'cypress-file-upload';
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
